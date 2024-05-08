@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+/* inicio en general */
+
+.title {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 200px;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+p {
+    margin-bottom: 1px;
+    font-size: 18px;
+    color: #101010;
+    padding: 0 150px;
+   
+}
+
+/* fin en general */
+
+
+
+.btn:hover {
+    background: none;
+}
+
+.contenedor3 {
+    padding: 100px 100px;
+    background-image: url(../images/med.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* inicio de nosotros */
+
+
+
+.box-container .box p {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box {
+    width: 300px;
+    height: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(18, 175, 94, 0.989);
+    background: rgba(173, 230, 201, 0.662);
+    margin: 10px 20px;
+    border-radius: 10px
+}
+
+.box-container2 .box img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #000000;
+}
+
+.box-container2 .box h3 {
+    font-size: 20px;
+    color: #0e0d0d;
+    padding-top: 10px;
+}
+
+.box-container2 .box p {
+
+    font-size: 18px;
+    color: #141414;
+    padding: 0;
+}
+
+/* footer-.section{
+    display: flex;
+
+} */
+
+
+@media screen and (max-width: 700px) {
+    .cabeza{
+        flex-direction: column;
+/*         flex-wrap: wrap;
+        display: flex;  */
+    }
+}
+
+@media screen and (max-width: 700px) {
+    p {
+        padding: 0 50px;
+    }
+    .title{
+        margin-bottom: 0px;
+        font-size: 50px;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .contenedor1 {
+        flex-direction: column;
+    }
+    .contenedor2 {
+        flex-direction: column;
+    }
+    .contenedor3 {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+}
+
+
+
